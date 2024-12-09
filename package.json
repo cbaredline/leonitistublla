@@ -1,20 +1,14 @@
 {
   "name": "leonitstublla",
   "version": "1.0.0",
-  "description": "",
-  "main": "LeonitStublla.js",
+  "description": "A personal portfolio project for Leonit Stublla",
+  "main": "leonitstublla.js",
   "scripts": {
-    "test": "mocha"
+    "start": "node leonitstublla.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "express": "^4.18.2"
   },
-  "devDependencies": {
-    "mocha": "^11.0.1",
-    "nodemon": "^3.1.7"
-  }
+  "author": "Leonit Stublla",
+  "license": "ISC"
 }
