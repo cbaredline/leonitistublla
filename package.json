@@ -1,0 +1,14 @@
+{
+  "name": "leonitstublla",
+  "version": "1.0.0",
+  "description": "A personal portfolio project for Leonit Stublla",
+  "main": "LeonitStublla.js",
+  "scripts": {
+    "start": "node LeonitStublla.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "author": "Leonit Stublla",
+  "license": "ISC"
+}
