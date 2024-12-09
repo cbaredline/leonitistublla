@@ -12,3 +12,7 @@
   "author": "Leonit Stublla",
   "license": "ISC"
 }
+"scripts": {
+  "start": "node src/leonitstublla.js"
+}
+
