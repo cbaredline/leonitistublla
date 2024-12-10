@@ -1,18 +1,18 @@
 const express = require('express');
 const path = require('path');
 const app = express();
+const port = process.env.PORT || 3000;
 
-// Serve static files (CSS, JS, images, etc.)
+// Serve static files (like CSS, JS) from the 'public' folder
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Serve your HTML file from the public folder
+// Serve the index.html file on the root route
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-// Set the server to listen on the specified port
-const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
+
 
